@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* Regra @charset caso haja problemas com acentuação */
+h1{
+    color: blueviolet;
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: beige;
+}
+
