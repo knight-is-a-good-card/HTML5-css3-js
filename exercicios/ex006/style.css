@@ -1,0 +1,40 @@
+h1{
+    padding-top: 30px;
+    margin-right: 30px;
+    border: 15px solid #f70404;
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+    width: 500px;
+    margin: auto;
+}
+
+h2{
+    color: white;
+    padding-left:  200px;
+    background-color: aqua;
+    width: 400px;
+     margin: auto;
+}
+
+h3{
+    color: white;
+    padding-left:  250px;
+    background-color: rgb(61, 201, 18);
+    width: 350px;
+     margin: auto;
+}
+
+h4{
+    color: white;
+    border-bottom: 5px solid #f70404;
+    padding-left:  200px;
+    background-color: rgb(187, 48, 157);
+    width: 400px;
+     margin: auto;
+}
+
+
+body{
+    background-color: black;
+}
