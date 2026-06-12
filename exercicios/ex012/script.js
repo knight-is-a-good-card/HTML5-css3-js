@@ -1,0 +1,1 @@
+alert("Estou aprendendo JavaScript!")
