@@ -6,20 +6,63 @@
     <title>Document</title>
 
     <style>
-        #imgPlace{
-            height: 300px;
+
+        body {
+            background-color: lightblue;
         }
+
+        .placeHolder {
+            padding: 20px;
+            text-align: center;
+            width: 300px;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 80px;
+            text-align: center;
+            padding-top: 10px;
+            padding-right: 30px;
+            padding-left: 30px;
+            border-radius: 20px;
+        }
+
+        button {
+            background-color: rgb(224, 183, 120);
+            padding-bottom: 10px;
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        #divimg{
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            width: 400px;
+            border-radius: 10px;
+        }
+        
+        #imgPlace{
+            width: 100%;
+            border-radius: 1000px;
+        }
+
+
     </style>
 
 </head>
-<body>
+<body >
     
     <div class="placeHolder">
         <h1>Genio</h1>
         <input type="number" id="idade" placeholder="Digite uma idade: ">
         <button onclick="verificarIdade()"> Verificar</button>
-        <img id="imgPlace" src="" alt="">
+        <div id="divimg">
+            <img id="imgPlace" src="" alt="">
+
+        </div>
     </div>
+
 
 <script src="script.js">
 </script>
