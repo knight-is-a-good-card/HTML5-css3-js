@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade 2 lista de compras</title>
+</head>
+<body>
+    <button onclick="mostrarCompras()">Mostrar compras</button>
+
+    <script>
+        const compras = [
+            "arroz",
+            "feijão",
+            "leite",
+            "pão",
+            "ovos"
+        ];
+
+        function mostrarCompras() {
+            for (let i = 0; i < compras.length; i++) {
+                console.log(compras[i]);
+                alert(compras[i]);
+            }
+        }
+    </script>
+</body>
+</html>
