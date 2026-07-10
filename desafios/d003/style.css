@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* Regra de acentuação* */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+:root {
+    --cor_background: #f0f8ff;
+    --cor_title: #407e40;
+    --cor-game-container: rgb(154, 206, 177);
+    --cor-game-container-border: #4d914d;
+    --main_font-Family: 'Figtree', sans-serif;
+}
+
+body{
+    background: var(--cor_background);
+}
+
+.gameContainer {
+    width: 600px;
+    height: 600px;
+    background-color: var(--cor-game-container);
+    border-radius: 20px;
+    border: 8px solid var(--cor-game-container-border);
+    margin: auto;
+    position: relative
+}
+
+.menuGame{
+    position: absolute;
+    width: 200px;
+    padding: 10px;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 40px;
+    box-shadow: 0px 4px 15px rgb(58, 58, 59);
+    background-color: beige;
+    border-radius: 20px;
+    z-index: 10;
+}
+
+h1 {
+    font-family: var(--main_font-Family);
+    color: var(--cor_title);
+}
+
+#btn-start{
+    background-color: #4d914d;
+    color: azure;
+    padding: 10px;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18px;
+}
+
+#btn-atart:hover{
+    background-color: var(--cor-game-container-border);
+}
+
+canvas{
+    display: none;
+    background-color: transparent;
+}
+
